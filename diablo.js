@@ -256,10 +256,11 @@ SILAHKAN PILIH MENU DIBAWAH
 
 • bugmenu
 • othermenu
-• linkgc
 • listsewa
 • sc
+• ownermenu
 ▬▭▬▭▬ ✦✧✦ ▬▭▬▭▬
+
 `
 diablobotwhatsapp.reply(jiren)
 case 'bugmenu':
@@ -372,7 +373,18 @@ jiren = `
 ▬▭▬▭▬ ✦✧✦ ▬▭▬▭▬
 【♡ۣۜۜ፝͜͜͡͡✿➣  LINK SC : BUYY BANG 35K SAMA OWNER
 ▬▭▬▭▬▭▬▭▬▭▬▭▬
-    
+
+`
+diablobotwhatsapp.reply(jiren)
+case 'bugmenu':
+jiren = `
+▬▭▬▭▬ ✦✧✦ ▬▭▬▭▬
+           𝐨𝐰𝐧𝐞𝐫.𝐦𝐞𝐧𝐮
+▬▭▬▭▬ ✦✧✦ ▬▭▬▭▬
+• MY NAME : DENZZ
+• AGE : 13
+• NUMBER : 6285723219491
+▬▭▬▭▬▭▬▭▬▭▬▭▬
 `
 diablobotwhatsapp.reply(jiren)
 break
@@ -411,7 +423,7 @@ let ceknye = await diablo.onWhatsApp(bnnd + `@s.whatsapp.net`)
 if (ceknye.length == 0) return reply(`Masukkan Nomor Yang Valid Dan Terdaftar Di WhatsApp!!!`)
 owner.push(bnnd)
 fs.writeFileSync('./database/owner.json', JSON.stringify(owner))
-diablobotwhatsapp.reply(`Nomor ${bnnd} Sudah Bisa Akses!!!`)
+diablobotwhatsapp.reply(`Nomor ${bnnd} Ciee Di Kasih Akses🥺`)
 break
 case 'delakses':
     if (!isGroup) return diablobotwhatsapp.reply(`wajib dalam grup`)
