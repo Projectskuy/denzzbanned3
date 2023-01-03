@@ -29,7 +29,7 @@ version
 
 store.bind(diablo.ev)
 
-console.log(color(figlet.textSync(`BOT BUG VIP`, {
+console.log(color(figlet.textSync(`DenzzNgentod`, {
 font: 'Standard',
 horizontalLayout: 'default',
 vertivalLayout: 'default',
