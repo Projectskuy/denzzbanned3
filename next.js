@@ -269,4 +269,3 @@ return diablo
 }
 
 diabloBot()
-
